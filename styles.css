@@ -1,0 +1,187 @@
+body {
+  background-color: #F5F5F5;
+}
+
+.title {
+  display: inline-block;
+  margin-left: 28px;
+}
+
+.welcomeText {
+  padding-top: 10px;
+  padding-left: 25px;
+}
+.oscarButton {
+  position: absolute;
+  left: 624px;
+  background-color: transparent;
+  width: 36px;
+  height: 25px;
+}
+.welcome {
+   background-image: linear-gradient(#8ED1DC, #E3F4F6);
+    border: blue solid 2px;
+    height: 100px;
+    border-left-width: 2px;
+    padding-left: 0px;
+    margin-left: 83px;
+    margin-right: 770px;
+    margin-bottom: 50px;
+}
+.navContainer {
+  position: absolute;
+  top: 379px;
+}
+.elephant {
+    height: 60px;
+    width: 60px;
+}
+
+.navigation {
+  float: left;
+  top: 0px;
+  position: relative;
+  width: 55px;
+  height: 880px;
+  background-color: white;
+  z-index: 100;
+}
+
+.girlHead {
+  padding-top: 17px;
+  width: 30px;
+  height: 30px;
+}
+.wallet {
+  padding-bottom: 45px;
+  width: 30px;
+  height: 30px;
+}
+.clipboard {
+  padding-bottom: 50px;
+  width: 30px;
+  height: 30px;
+}
+.allrecents {
+  display: inline-block;
+  position: relative;
+  left: 20px;
+  padding-bottom: 21px;
+}
+.recents {
+  background-color: white;
+  margin-left: 10px;
+  display: inline-block;
+  border: white solid 2px;
+  width: 160px;
+  height: 100px;
+  padding: 17px;
+}
+.recentFont {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.accountsButton {
+  width: 146px;
+  color: white;
+  background-color: #1CA3BA;
+  border-radius: 80px;
+  margin-left: 354px;
+}
+
+.accountpics {
+  display: inline;
+  width: 20px;
+  height: 20px;
+}
+.accts {
+  height:500px;
+  width:600px;
+  margin-left: 87px;
+}
+.acctinline {
+  display: inline-block;
+  padding-left: 29px;
+}
+.accounts {
+  font-size: 20px;
+  padding-left: 20px;
+  display: inline;
+}
+.type1, .type2, .type3, .type4 {
+  display: inline;
+  font-size: 20px;
+}
+.colorBox {
+  background-color: white;
+  margin-top: 20px;
+  height: 70px;
+}
+
+.topOfAccounts {
+    padding-top: 2px;
+    background-color: white;
+  }
+  .type1{
+    display: inline-block;
+    margin-left: 290px;
+  }
+  .type2{
+    display:inline-block;
+  margin-left: 294px;
+  }
+  .type3 {
+    display:inline-block;
+  margin-left: 267px;
+  }
+  .type4 {
+    margin-left: 253px;
+    display: inline-block;
+  }
+  .recentFont {
+    font-size: 20px;
+    font-style: strong;
+  }
+
+  .recentTransactions {
+    background-color: white;
+    float: right;
+    width: 680px;
+    height: 760px;
+    position: relative;
+    bottom: 884px;
+  }
+  .newTransactionButton {
+    width:136px;
+    height:36px;
+    color: white;
+    background-color: #1CA3BA;
+    border-radius: 80px;
+    margin-left: 280px;
+  }
+
+  .underlining{
+    border-bottom: #CCCCCC;
+    position: relative;
+  }
+  table {
+    border-collapse: collapse;
+    width: 680px;
+    height: 670px;
+    box-sizing: content-box;
+  }
+
+  th {
+    font-weight: bold;
+    text-align: left;
+  }
+
+  .dataRows {
+    border-bottom: 1px solid #CCCCCC;
+    border: 1px solid blue;
+  }
+
+  .hidden {
+    display: none;
+  }
