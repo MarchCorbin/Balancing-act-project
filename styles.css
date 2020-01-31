@@ -1,8 +1,13 @@
 body {
   background-color: #F5F5F5;
+  box-shadow: 5px 10px rgba(0,0,0,0.05);
+}
+* {
+  font-family: 'Biryani', sans-serif;
 }
 
 .title {
+  font-family: biryan
   display: inline-block;
   margin-left: 28px;
 }
