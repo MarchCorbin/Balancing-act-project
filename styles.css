@@ -1,6 +1,6 @@
 body {
   background-color: #F5F5F5;
-  box-shadow: 5px 10px rgba(0,0,0,0.05);
+  box-shadow: 5px 10px rgba(0,0,0,0.5);
 }
 * {
   font-family: 'Biryani', sans-serif;
@@ -9,10 +9,21 @@ body {
 .title {
   font-family: biryan
   display: inline-block;
-  margin-left: 28px;
+  margin-left: 83px;
 }
+.homeButtom {
+  }
+}
+.clipboardButton{
 
-.welcomeText {
+}
+.walletButton {
+
+}
+.girlHeadButton {
+
+}
+.welcome {
   padding-top: 10px;
   padding-left: 25px;
 }
@@ -25,7 +36,6 @@ body {
 }
 .welcome {
    background-image: linear-gradient(#8ED1DC, #E3F4F6);
-    border: blue solid 2px;
     height: 100px;
     border-left-width: 2px;
     padding-left: 0px;
