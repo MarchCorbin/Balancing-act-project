@@ -1,6 +1,5 @@
 body {
   background-color: #F5F5F5;
-  box-shadow: 5px 10px rgba(0,0,0,0.5);
 }
 * {
   font-family: 'Biryani', sans-serif;
@@ -8,20 +7,29 @@ body {
 
 .title {
   font-family: biryan
-  display: inline-block;
+position: absolute;
   margin-left: 83px;
 }
-.homeButtom {
+.homeButton {
+  background-color: transparent;
+  width: 50px;
+  height: 59px;
   }
+.clipboard {
+  background-color: white;
+  width: 60px;
+  height: 60px;
 }
 .clipboardButton{
-
+  background-color: transparent;
+  height:60px;
+  width: 60px;
 }
-.walletButton {
 
-}
 .girlHeadButton {
-
+  height: 60px;
+  width: 60px;
+background-color: transparent;
 }
 .welcome {
   padding-top: 10px;
@@ -56,7 +64,7 @@ body {
   float: left;
   top: 0px;
   position: relative;
-  width: 55px;
+  width: 80px;
   height: 880px;
   background-color: white;
   z-index: 100;
@@ -80,7 +88,7 @@ body {
 .allrecents {
   display: inline-block;
   position: relative;
-  left: 20px;
+  left: 0px;
   padding-bottom: 21px;
 }
 .recents {
@@ -187,7 +195,18 @@ body {
     height: 670px;
     box-sizing: content-box;
   }
+.walletButton:hover {
+  border-left: 10px solid #1CA3BA;
 
+}
+.walletButton {
+  height: 60px;
+  width: 60px;
+  background-color: transparent;
+border-left: 10px solid transparent;
+}
+
+}
   th {
     font-weight: bold;
     text-align: left;
@@ -200,4 +219,12 @@ body {
 
   .hidden {
     display: none;
+  }
+
+  td {
+    border-bottom: 1px solid #CCCCCC;
+  }
+
+  .recentTransactions, .colorBox, .recents, .welcome, .topOfAccounts  {
+    box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.5);
   }
