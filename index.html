@@ -17,6 +17,7 @@
 
 
   <body>
+    <section id="welcomePage" class="visible">
     <h1 class="title">Balancing Act</h1>
     <section class="welcome">
       <button class="oscarButton"> <img src="/Users/corbinmarch/balancing-act/assets/close.svg" alt="close button"/>
@@ -78,10 +79,10 @@
         <button class="newTransactionButton">New transaction</button>
         <table class="underlining" rules="rows">
           <tr class="tableHeaders">
-          <th>Date</th>
-          <th>Payee</th>
-          <th>Inflow</th>
-          <th>Outflow</th>
+          <th class="headers">Date</th>
+          <th class="headers">Payee</th>
+          <th class="headers">Inflow</th>
+          <th class="headers">Outflow</th>
         </tr>
       <tr class="dataRows">
         <td>Oct 25,2019</td>
@@ -139,7 +140,162 @@
         </tr>
         </table>
       </section>
+      </section>
 
+<!-- transactions page -->
+<section id="transactionsPage" class="hidden">
+  <section class="headPadding">
+  <h1 class="transactionsTitle">Transactions</h1>
+  <button class="buttonAll">ALL</button>
+  <button class="inflowButton">INFLOW</button>
+  <button class="outflowButton">OUTFLOW</button>
+</section>
+
+<section class="tableBox">
+<table class="allTransactions" rules="rows">
+    <th class="headers">Date</th>
+    <th class="headers">Account</th>
+    <th class="headers">Payee</th>
+    <th class="headers">Inflow</th>
+    <th class="headers">Outflow</th>
+  <tr>
+    <td>10-25-19</td>
+    <td>Credit Card</td>
+    <td>Target</td>
+    <td> - </td>
+    <td>$82.35</td>
+  </tr>
+  <tr>
+    <td>10-26-19</td>
+    <td>Credit Card</td>
+    <td>Express</td>
+    <td> - </td>
+    <td>$212.34</td>
+  </tr>
+  <tr>
+    <td>10-22-19</td>
+    <td>Checking</td>
+    <td>Paycheck</td>
+    <td>$1,319.12</td>
+    <td> - </td>
+  </tr>
+  <tr>
+    <td>10-21-19</td>
+    <td>Credit Card</td>
+    <td>Trader Joe's</td>
+    <td> - </td>
+    <td>$54.92</td>
+  </tr>
+  <tr>
+    <td>10-20-19</td>
+    <td>Credit Card</td>
+    <td>Shell</td>
+    <td> - </td>
+    <td>$46.23</td>
+  </tr>
+  <tr>
+    <td>10-19-19</td>
+    <td>Savings</td>
+    <td>Rent</td>
+    <td>$800.00</td>
+    <td> - </td>
+  </tr>
+  <tr>
+    <td>10-19-19</td>
+    <td>Checking</td>
+    <td>Hapa Sushi</td>
+    <td> - </td>
+    <td>$13.97</td>
+  </tr>
+  <tr>
+    <td>10-18-19</td>
+    <td>Credit Card</td>
+    <td>Pig Train</td>
+    <td> - </td>
+    <td>$4.83</td>
+  </tr>
+  <tr>
+    <td>10-18-19</td>
+    <td>Checking</td>
+    <td>RTD</td>
+    <td> - </td>
+    <td>$6.00</td>
+  </tr>
+  <tr>
+    <td>10-24-19</td>
+    <td>Checking</td>
+    <td>Express</td>
+    <td> - </td>
+    <td>$212.24</td>
+  </tr>
+  <tr>
+    <td>10-24-19</td>
+    <td>Checking</td>
+    <td>Express</td>
+    <td> - </td>
+    <td>$212.24</td>
+  </tr>
+  <tr>
+    <td>10-24-19</td>
+    <td>Checking</td>
+    <td>Express</td>
+    <td> - </td>
+    <td>$212.24</td>
+  </tr>
+  <tr>
+    <td>10-24-19</td>
+    <td>Checking</td>
+    <td>Express</td>
+    <td> - </td>
+    <td>$212.24</td>
+  </tr>
+  <tr>
+    <td>10-24-19</td>
+    <td>Checking</td>
+    <td>Express</td>
+    <td> - </td>
+    <td>$212.24</td>
+  </tr>
+  <tr>
+    <td>10-24-19</td>
+    <td>Checking</td>
+    <td>Express</td>
+    <td> - </td>
+    <td>$212.24</td>
+  </tr>
+</table>
+</section>
+
+
+  <form class="newTransactionform">
+    <h2 class="formTitle">New Transaction</h2>
+  <p class="formTitles">Type of Transation:</p>
+  <select class="options">
+    <option value="Expenses">Expenses</option>
+    <option value="Withdrawls">Withdrawls</option>
+    <option value="Deposits">Deposits</option>
+  </select>
+  <p class="formTitles">Category:</p>
+  <select class="options">
+  <option value="Select One">- Select One -</option>
+  <option value="Select Two">- Select Two -</option>
+  </select>
+  <p class="formTitles">Account From:</p>
+  <select class="options">
+    <option value="- Select One -">- Select One -</option>
+    <option value="Checking">Checking</option>
+    <option value="Savings">Savings</option>
+    <option value="Credit">Credit</option>
+  </select>
+  <p class="formTitles">Payee:</p>
+  <input class="options" type="text" name="Payee" value="">
+  <p class="formTitles">Outflow:</p>
+  <input class="options" type="number" name="" value="">
+  <p class="formTitles">Category:</p>
+  <input class="options" type="text" name="" value="">
+  <button class="logExpense">Log Expense</button>
+  </form>
+  </section>
 
 
 

@@ -6,8 +6,8 @@ body {
 }
 
 .title {
-  font-family: biryan
-position: absolute;
+  font-family: biryan;
+position: relative;
   margin-left: 83px;
 }
 .homeButton {
@@ -207,14 +207,14 @@ border-left: 10px solid transparent;
 }
 
 }
-  th {
+th {
     font-weight: bold;
     text-align: left;
   }
 
   .dataRows {
     border-bottom: 1px solid #CCCCCC;
-    border: 1px solid blue;
+    border: 1px;
   }
 
   .hidden {
@@ -228,3 +228,65 @@ border-left: 10px solid transparent;
   .recentTransactions, .colorBox, .recents, .welcome, .topOfAccounts  {
     box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.5);
   }
+.allTransactions {
+  table-layout: auto;
+  left: 138px;
+  background-color: white;
+  width: 560px;
+  height: 760px;
+  position:absolute;
+}
+
+.transactionsTitle {
+  display: inline-block;
+}
+.buttonAll, .inflowButton, .outflowButton {
+  display: inline
+  position: absolute;
+  color: white;
+  background-color: #1CA3BA;
+  border-radius: 80px;
+}
+.buttonAll {
+    margin-left: 234px;
+}
+.newTransactionform {
+  box-sizing: border-box;
+  background-color: white;
+  position: relative;
+  width: 524px;
+  height: 600px;
+  left: 809px;
+}
+.headPadding {
+  margin-left: 129px;
+}
+.formBox {
+position: absolute;
+}
+.formTitle {
+  padding-top: 35px;
+  text-align: center;
+}
+.formTitles {
+  margin-left: 96px;
+  margin-right: 50px;
+}
+.options {
+  width: 320px;
+  height: 20px;
+  margin-left: 93px;
+}
+.logExpense{
+  display: block;
+  margin-top: 15px;
+  width: 146px;
+  height: 35px;
+  margin-left: 92px;
+  color: white;
+  background-color: #1CA3BA;
+  border-radius: 80px;
+}
+.headers {
+  text-align: left;
+}

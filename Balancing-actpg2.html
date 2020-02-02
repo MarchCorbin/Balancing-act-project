@@ -16,16 +16,18 @@
     </section>
   </nav>
 </header>
-<body>
-<h1 class="transactionsTitle">Transactions</h1>
-<button class="buttonAll">ALL</button>
-<button class="inflowButton">INFLOW</button>
-<button class="outflowButton">OUTFLOW</button>
+<body id="transactionsPage">
+  <section class="headPadding">
+  <h1 class="transactionsTitle">Transactions</h1>
+  <button class="buttonAll">ALL</button>
+  <button class="inflowButton">INFLOW</button>
+  <button class="outflowButton">OUTFLOW</button>
+</section>
 
-
-<table class="allTransactions">
+<section class="tableBox">
+<table class="allTransactions" rules="rows">
     <th>Date</th>
-    <th>Accountth</th>
+    <th>Account</th>
     <th>Payee</th>
     <th>Inflow</th>
     <th>Outflow</th>
@@ -135,40 +137,41 @@
     <td>$212.24</td>
   </tr>
 </table>
-
-<form class="newTransactionform">
-  <h2>New Transaction</h2>
-<p>Type of Transation:</p>
-<select>
-  <option value="Expenses">Expenses</option>
-  <option value="Withdrawls">Withdrawls</option>
-  <option value="Deposits">Deposits</option>
-</select>
-<p>Category:</p>
-<select>
-<option value="Select One">- Select One -</option>
-<option value="Select Two">- Select Two -</option>
-</select>
-<p>Account From:</p>
-<select>
-  <option value="- Select One -">- Select One -</option>
-  <option value="Checking">Checking</option>
-  <option value="Savings">Savings</option>
-  <option value="Credit">Credit</option>
-</select>
-<p>Payee:</p>
-<input type="text" name="Payee" value="">
-<p>Outflow:</p>
-<input type="number" name="" value="">
-<p>Category:</p>
-<input type="text" name="" value="">
-<button>Log Expense</button>
-</form>
+</section>
 
 
+  <form class="newTransactionform">
+    <h2 class="formTitle">New Transaction</h2>
+  <p class="formTitles">Type of Transation:</p>
+  <select class="options">
+    <option value="Expenses">Expenses</option>
+    <option value="Withdrawls">Withdrawls</option>
+    <option value="Deposits">Deposits</option>
+  </select>
+  <p class="formTitles">Category:</p>
+  <select class="options">
+  <option value="Select One">- Select One -</option>
+  <option value="Select Two">- Select Two -</option>
+  </select>
+  <p class="formTitles">Account From:</p>
+  <select class="options">
+    <option value="- Select One -">- Select One -</option>
+    <option value="Checking">Checking</option>
+    <option value="Savings">Savings</option>
+    <option value="Credit">Credit</option>
+  </select>
+  <p class="formTitles">Payee:</p>
+  <input class="options" type="text" name="Payee" value="">
+  <p class="formTitles">Outflow:</p>
+  <input class="options" type="number" name="" value="">
+  <p class="formTitles">Category:</p>
+  <input class="options" type="text" name="" value="">
+  <button class="logExpense">Log Expense</button>
+  </form>
+</section>
 
 
 
 
-
+</body>
 </html>
