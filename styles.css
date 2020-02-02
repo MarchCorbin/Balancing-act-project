@@ -110,7 +110,7 @@ background-color: transparent;
   color: white;
   background-color: #1CA3BA;
   border-radius: 80px;
-  margin-left: 354px;
+  margin-left: 314px;
 }
 
 .accountpics {
@@ -159,7 +159,7 @@ background-color: transparent;
   margin-left: 267px;
   }
   .type4 {
-    margin-left: 253px;
+    margin-left: 247px;
     display: inline-block;
   }
   .recentFont {
@@ -183,6 +183,8 @@ background-color: transparent;
     background-color: #1CA3BA;
     border-radius: 80px;
     margin-left: 280px;
+    margin-top: 19px;
+    right: 34px;
   }
 
   .underlining{
@@ -209,7 +211,6 @@ border-left: 10px solid transparent;
 }
 th {
     font-weight: bold;
-    text-align: left;
   }
 
   .dataRows {
@@ -225,7 +226,7 @@ th {
     border-bottom: 1px solid #CCCCCC;
   }
 
-  .recentTransactions, .colorBox, .recents, .welcome, .topOfAccounts  {
+.recentTransactions, .colorBox, .recents, .welcome, .topOfAccounts, .tableBox,   {
     box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.5);
   }
 .allTransactions {
@@ -235,12 +236,16 @@ th {
   width: 560px;
   height: 760px;
   position:absolute;
+
 }
 
 .transactionsTitle {
+  font-size: 23px;
   display: inline-block;
 }
 .buttonAll, .inflowButton, .outflowButton {
+  width: 106px;
+  height: 30px;
   display: inline
   position: absolute;
   color: white;
@@ -248,7 +253,7 @@ th {
   border-radius: 80px;
 }
 .buttonAll {
-    margin-left: 234px;
+    margin-left: 85px;
 }
 .newTransactionform {
   box-sizing: border-box;
@@ -257,15 +262,18 @@ th {
   width: 524px;
   height: 600px;
   left: 809px;
+  bottom: 21px;
 }
 .headPadding {
   margin-left: 129px;
+  box-shadow: none;
 }
 .formBox {
 position: absolute;
 }
 .formTitle {
-  padding-top: 35px;
+  margin-right: 67px;
+  padding-top: 45px;
   text-align: center;
 }
 .formTitles {
@@ -275,7 +283,7 @@ position: absolute;
 .options {
   width: 320px;
   height: 20px;
-  margin-left: 93px;
+  margin-left: 10px;
 }
 .logExpense{
   display: block;
