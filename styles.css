@@ -298,3 +298,11 @@ position: absolute;
 .headers {
   text-align: left;
 }
+.tdate {
+  padding-left: 27px;
+}
+
+.dhead {
+  padding-left: 28px;
+  text-align: left;
+}
