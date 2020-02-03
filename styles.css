@@ -122,8 +122,10 @@ background-color: transparent;
 
 .accountpics {
   display: inline;
-  width: 20px;
-  height: 20px;
+  width: 30px;
+  height: 30px;
+  padding-left: 20px;
+
 }
 .accts {
   height:500px;
@@ -304,13 +306,21 @@ position: absolute;
   border-radius: 80px;
 }
 .headers {
-  text-align: left;
+  text-align: center;
 }
 .tdate {
   padding-left: 27px;
 }
 
-.dhead {
+.dateHead {
   padding-left: 28px;
   text-align: left;
+}
+
+.datepad {
+  padding-left: 55px;
+}
+
+.dateHead {
+
 }
