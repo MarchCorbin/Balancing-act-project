@@ -236,7 +236,7 @@ th {
     border-bottom: 1px solid #CCCCCC;
   }
 
-.recentTransactions, .colorBox, .recents, .welcome, .topOfAccounts, .tableBox {
+.recentTransactions, .colorBox, .recents, .welcome, .topOfAccounts {
     box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.5);
   }
 .allTransactions {
